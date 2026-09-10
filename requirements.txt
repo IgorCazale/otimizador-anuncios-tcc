@@ -1,0 +1,7 @@
+streamlit
+pandas
+python-dotenv
+google-ads
+facebook_business
+requests
+plotly
