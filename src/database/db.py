@@ -38,7 +38,7 @@ def init_db():
     
     conn.commit()
     conn.close()
-    print("✅ Banco de dados e tabela 'campaign_metrics' criados com sucesso!")
+    print(" Banco de dados e tabela 'campaign_metrics' criados com sucesso!")
 
 if __name__ == "__main__":
     init_db()

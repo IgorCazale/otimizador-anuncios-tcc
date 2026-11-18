@@ -53,7 +53,7 @@ def generate_mock_data(days=30):
 
     conn.commit()
     conn.close()
-    print(f"✅ {records_inserted} registros simulados inseridos com sucesso no SQLite!")
+    print(f" {records_inserted} registros simulados inseridos com sucesso no SQLite!")
 
 if __name__ == "__main__":
     generate_mock_data()

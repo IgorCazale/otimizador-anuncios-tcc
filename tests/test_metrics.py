@@ -24,7 +24,7 @@ def test_kpi_calculations():
     assert result['CPC (R$)'].iloc[0] == 5.0
     assert result['CPA (R$)'].iloc[0] == 25.0
     assert result['ROAS'].iloc[0] == 4.0
-    print("✅ Todos os testes de KPIs passaram com sucesso!")
+    print(" Todos os testes de KPIs passaram com sucesso!")
 
 if __name__ == "__main__":
     test_kpi_calculations()
